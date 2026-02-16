@@ -1,13 +1,12 @@
 s = "Hello! How are you?"
 count = s.count("o")
-print(f"in the string occurrence is {s.count("o")} no of times")
 prevelence = []
 index = 0
-for x in range(count):
-    index = s.find("o", index, len(s))
-    prevelence.append(index)
-    print(index)
-    index += 1
-    print(prevelence)
-
-print(prevelence.sort())
+if count > 0:
+    for x in range(count):
+        index = s.find("o", index, len(s))
+        prevelence.append(index)
+        index += 1
+    print(f"Total {count} Occurrences in the indexes {prevelence}")
+else:
+    print("not found")
