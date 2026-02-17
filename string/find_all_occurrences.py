@@ -1,3 +1,4 @@
+# ? This programme let's you find all the occurrences of a sub-string in a string utilizing string methods, conditional statements and conrol flow statements
 s = "Hello! How are you?"
 count = s.count("o")
 prevelence = []
